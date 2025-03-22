@@ -5,5 +5,5 @@
 
 void AShooterGameModeBase::PawnKilled(APawn* PawnKilled)
 {
-    // Implementation of what should happen when a pawn is killed
+    
 }

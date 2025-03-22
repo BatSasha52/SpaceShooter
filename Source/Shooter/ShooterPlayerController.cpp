@@ -35,5 +35,4 @@ void AShooterPlayerController::GameHasEnded(AActor* EndGameFocus, bool bIsWinner
 	}
 	
 	GetWorldTimerManager().SetTimer(RestartTimer, this, &APlayerController::RestartLevel, RestartDelay);
-//	UE_LOG(LogTemp, Warning, TEXT("We've Lost"));
 }
